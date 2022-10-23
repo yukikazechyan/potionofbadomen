@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "potionofbadomen",
+  "version": "1.0",
+
+  "name": "potionofbadomen",
+  "description": "potionofbadomen",
+  "authors": [
+    "HMS Indomitable",
+    "Awayuki"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/yukikazechyan/potionofbadomen"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/potionofbadomen/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.potionofbadomen.potionofbadomen"
+    ]
+  },
+  "mixins": [
+    "potionofbadomen.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
